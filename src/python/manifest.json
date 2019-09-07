@@ -1,0 +1,9 @@
+{
+  "name": "com.grushetski.browser_select_extension_poc",
+  "description": "TODO",
+  "path": "run.cmd",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://aifbdhlgfckpfgpcjabfdfcemnaipoha/"
+  ]
+}
