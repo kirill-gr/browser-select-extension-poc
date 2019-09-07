@@ -18,7 +18,6 @@ function checkUrl(details) {
     port.onMessage.addListener(response => {
         if (response.handled === true) {
             if (tabsToClose.has(details.tabId)) {
-                // console.log(details.tabId);
                 chrome.tabs.remove(details.tabId);
                 tabsToClose.delete(details.tabId)
             }
